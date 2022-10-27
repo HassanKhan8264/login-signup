@@ -3,7 +3,7 @@ import "./App.css"
 import { useFormik } from 'formik';
 import * as yup from 'yup';
 
-const App= () => {  
+const App = () => {  
   const validationSchema = yup.object({
   email: yup
     .string('Enter your email')
