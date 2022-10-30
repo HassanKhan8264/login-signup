@@ -1,13 +1,13 @@
 import './App.css';
-import Header from './components/navbar'
-// import { Formik} from 'formik';
-// import { useFormik } from 'formik';
-// import * as yup from 'yup';
-// import * as yup from 'yup';
+import  Home from './home';
+// import  About from './About';
 
 function App() {
-     return (
-   <Header/>
+     return ( 
+      <div>
+        <Home/>
+      
+      </div>
   );
 }
 
